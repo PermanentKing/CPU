@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Wed Jun 27 22:31:30 2018
+# Process ID: 3280
+# Log file: C:/Users/64534/Desktop/新建文件夹/MultipleCycleCPU_verilog-master/MultipleCycleCPU_verilog-master/MultipleCycleCPU_Basys3/webtalk.log
+# Journal file: C:/Users/64534/Desktop/新建文件夹/MultipleCycleCPU_verilog-master/MultipleCycleCPU_verilog-master/MultipleCycleCPU_Basys3\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/64534/Desktop/project_2/project_2.hw/webtalk/labtool_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 1775035514 -regid "" -xml C:/Users/64534/Desktop/project_2/project_2.hw/webtalk/usage_statistics_ext_labtool.xml -html C:/U..."
+    (file "C:/Users/64534/Desktop/project_2/project_2.hw/webtalk/labtool_webtalk.tcl" line 28)
+INFO: [Common 17-206] Exiting Webtalk at Wed Jun 27 22:31:34 2018...
