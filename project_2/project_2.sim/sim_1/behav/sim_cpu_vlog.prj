@@ -1,0 +1,25 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/RW.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/extend.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/AddPC1.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/AddPC2.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/RAM.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/JumpPC.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/DBoutput.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/NextPC.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/ALU32.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/ChooseInputB.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/ControlUnit.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/ChooseReg.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/PC.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/RegFile.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/transTocut.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/ChooseInputA.v"
+verilog xil_defaultlib  "../../../project_2.srcs/sources_1/new/SingleCPU.v"
+verilog xil_defaultlib  "../../../../SingleCPU/SingleCPU.srcs/sources_1/new/sim_cpu.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

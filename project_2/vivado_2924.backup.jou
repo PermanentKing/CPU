@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu May 31 13:06:24 2018
+# Process ID: 8560
+# Log file: C:/Users/64534/Desktop/SingleCPU-master/SingleCPU-master/project_2/vivado.log
+# Journal file: C:/Users/64534/Desktop/SingleCPU-master/SingleCPU-master/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/64534/Desktop/SingleCPU-master/SingleCPU-master/project_2/project_2.xpr
+launch_simulation
+source sim_cpu.tcl
+close_sim
+launch_simulation
+source sim_cpu.tcl
+add_bp {C:/Users/64534/Desktop/SingleCPU-master/SingleCPU-master/project_2/project_2.srcs/sources_1/new/ChooseReg.v} 8
+remove_bps -file {C:/Users/64534/Desktop/SingleCPU-master/SingleCPU-master/project_2/project_2.srcs/sources_1/new/ChooseReg.v} -line 8
+add_bp {C:/Users/64534/Desktop/SingleCPU-master/SingleCPU-master/project_2/project_2.srcs/sources_1/new/ChooseReg.v} 9
+remove_bps -file {C:/Users/64534/Desktop/SingleCPU-master/SingleCPU-master/project_2/project_2.srcs/sources_1/new/ChooseReg.v} -line 9
+close_sim
+launch_simulation
+source sim_cpu.tcl
+close_sim
+launch_simulation
+source sim_cpu.tcl
+close_sim
