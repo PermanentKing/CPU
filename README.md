@@ -1,2 +1,2 @@
 # CPU
-SingleCPU and Mutiple
+SingleCPU and MutipleCPU
