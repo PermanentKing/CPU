@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jun 22 15:15:03 2018
+# Process ID: 1820
+# Log file: C:/Users/64534/Desktop/新建文件夹/MultipleCycleCPU_verilog-master/MultipleCycleCPU_verilog-master/MultipleCycleCPU/vivado.log
+# Journal file: C:/Users/64534/Desktop/新建文件夹/MultipleCycleCPU_verilog-master/MultipleCycleCPU_verilog-master/MultipleCycleCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/64534/Desktop/新建文件夹/MultipleCycleCPU_verilog-master/MultipleCycleCPU_verilog-master/MultipleCycleCPU/MultipleCycleCPU.xpr
+save_project_as project_1 C:/Users/64534/Desktop/project_1 -force
+launch_simulation
+source TestSingleCycleCpu.tcl
+run 20 ns
+run 20 ns
+run 20 ns
+run 20 ns
+close_sim
+launch_simulation
+source TestSingleCycleCpu.tcl
+add_bp {C:/Users/64534/Desktop/project_1/project_1.srcs/sources_1/new/ControlUnit.v} 70
+remove_bps -file {C:/Users/64534/Desktop/project_1/project_1.srcs/sources_1/new/ControlUnit.v} -line 70
